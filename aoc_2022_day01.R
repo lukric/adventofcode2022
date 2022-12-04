@@ -4,12 +4,12 @@
 # Basic functions and packages
 library("dplyr")
 
-# PART 1
 # read data
 elves_inventory <- read.delim("data/day1_elves.txt",
                               blank.lines.skip = FALSE,
                               header = FALSE)
 
+# PART 1
 # ugly code
 x <- elves_inventory$V1
 
